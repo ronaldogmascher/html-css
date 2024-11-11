@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fonte em CSS</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+        body {
+            font-family:Arial, Helvetica, sans-serif;
+            /*Medidas Absolutas
+            cm, mm, in, px, pt, pc
+            
+            Medidas Relativas
+            em, ex, rem, vw, vh, %
+            16px geralmente = 1em*/
+            font-size: 1em;
+
+            /*lighter normal bold bolder*/
+        }
+
+        h1 {
+            /*shorthand font
+            - font-style -> font-weight -> font-size -> font-family
+
+            font-style: italic;
+            font-weight: bolder;
+            font-size: 3em;
+            font-family: 'Work Sans', sans-serif;
+            */
+            font: italic bolder 33m 'Work Sans', sans-serif;
+        }
+
+        h2 {
+            font: bold 2em 'Work Sans';
+        }
+
+        h3 {
+            font-style: oblique;
+            font-weight: lighter;
+            font-size: 16px;
+            font-family:'Courier New', Courier, monospace
+        }
+    </style>
+</head>
+<body>
+    <h1>Trabalhando com Fontes</h1>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quasi corporis tempora, optio tempore impedit facere delectus, fugit inventore eum officia neque, similique totam quis aperiam! Eaque perspiciatis labore deleniti rerum. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolor ab quis atque culpa eveniet saepe commodi, ut natus ullam, placeat exercitationem ipsam, pariatur voluptatibus maxime illo dicta doloribus? Rem, ipsam!</p>
+    <h2>Subtítuilo do Exercício</h2>
+    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nemo, esse fugit! Impedit fugit deleniti quaerat! Deserunt quo veniam commodi inventore consectetur soluta nulla sed. Atque voluptates quam ad quod est?</p>
+    <h3>Subtítulo 2</h3>
+    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ut nostrum dolore cumque maxime molestias nobis dignissimos totam. Aperiam nulla dolores quasi! Fugit, ad labore! Sunt numquam laborum id cumque ex?</p>
+</body>
+</html>

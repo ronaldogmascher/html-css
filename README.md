@@ -3,4 +3,4 @@
 
 Esse é o meu primiro Commit
 
-<a href="C:\Users\ronal\OneDrive\Área de Trabalho\curso-em-video\html-css\exercicios\ex001\index.html" target="_blank">Exercício 01</a>
+<a href="https:\\ronaldogmascher.github.io\html-css\exercicios\ex001\" target="_blank">Exercício 01</a>
